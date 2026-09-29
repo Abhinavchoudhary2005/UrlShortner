@@ -1,7 +1,4 @@
 {
-  "build": {
-    "env": {
-      "DOCKERFILE": "Dockerfile.vercel"
-    }
-  }
+  "runtime": "container",
+  "entrypoint": "Dockerfile.vercel"
 }
