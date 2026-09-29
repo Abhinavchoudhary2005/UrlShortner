@@ -17,3 +17,16 @@ spring:
       password: gQAAAAAABOGzAAIgcDI4MDY5NWU1ZTZiYjc0NzdhODc4NzY5ZGFlYTUxZWRkNg
       ssl:
         enabled: true
+
+server:
+  port: ${PORT:8080}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+  endpoint:
+    health:
+      show-details: never
