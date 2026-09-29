@@ -1,0 +1,7 @@
+{
+  "build": {
+    "env": {
+      "DOCKERFILE": "Dockerfile.vercel"
+    }
+  }
+}
