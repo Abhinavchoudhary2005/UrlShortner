@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-autumn-bar-b5t29b2x-pooler.c-7.us-east-2.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+    username: neondb_owner
+    password: npg_5laNck8DweqT
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  data:
+    redis:
+      host: calm-pangolin-319923.upstash.io
+      port: 6379
+      username: default
+      password: gQAAAAAABOGzAAIgcDI4MDY5NWU1ZTZiYjc0NzdhODc4NzY5ZGFlYTUxZWRkNg
+      ssl:
+        enabled: true
